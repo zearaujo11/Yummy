@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* HEADER */
+
+body header {
+    background-color: beige;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+body > header > nav > h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+body > header > nav h1 {
+    font-size: 120%;    
+}
+
+body > header > signs h1:nth-child(1) {
+    font-size: 120%;
+    padding-left: 0.5em;
+    padding-right: 0.5em; 
+    text-align: center;
+}
+
+body > header > signs h1:nth-child(2) {
+    font-size: 120%;
+    padding: 0.5em; 
+    background-color: #FAFA33;   
+}
+
+body > header > signs > h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* FOOTER */
+
+body > footer {
+    background-color: black;
+    color: white;
+}
+
+/* Log in */
+.formLogin {
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 5em;
+    background-color: lightgray;
+    width: 20em;
+}
+
+.formLogin > input {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.formLogin > button, #makeReviewForm > button, .makeReplyForm > button {
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.formLogin > img {
+    width: 10em;
+}
+
+
+.error {
+    color: red;
+}
+
+
+
+#restaurantsSearch {
+    background-color: lightyellow;
+    padding: 1em;
+}
+
+.restaurantSearch {
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 30px;
+    margin: 1em;
+    height: 15em;
+}
+
+.restaurantSearch > img {
+    width: 15em;
+    height: 15em;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.restaurantSearch > div {
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left: 2px solid black;
+    padding: 1em;
+}
+
+.restaurantSearch > div:hover {
+    background-color: lightgrey;
+}
+
+.restaurantSearch > div > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+
+.restaurantsGlobal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryBigImageContainer > h1 {
+    position: absolute;
+    z-index: 1000;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.categoryBigImage {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.categoryBigImageContainer {
+    position: relative;
+    text-align: center;
+    height: 30em;
+    border-radius: 10px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+

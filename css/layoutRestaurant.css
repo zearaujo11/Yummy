@@ -1,0 +1,129 @@
+@media (min-width: 80em) {
+    .restaurantGlobal {
+        display: flex;
+    }
+
+    .restaurantInformation {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+    }
+    
+    .clientOrders {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Main Image of Restaurant */
+    .restaurantImage {
+        margin: 1em;
+        border-radius: 20px;
+    }
+
+    .addFavourite {
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+    }
+}
+
+@media (min-width: 80em) {
+    .restaurantInformation > *{
+        width: 50em;
+    }
+}
+
+@media (max-width: 80em) {
+    .restaurantInformation > * {
+        width: 88%;
+    }
+}
+
+@media (max-width: 80em) {
+    .restaurantGlobal {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .restaurantInformation {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurantImage {
+        margin: 1em;
+        border-radius: 20px;
+    }
+
+    .clientOrders {
+        width: 95%;
+        margin: 1em; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clientOrders :last-child {
+        margin-bottom: 2em ;
+    }
+}
+
+.product {
+    margin: 1em;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productOrderAddButton {
+    border: 1.5px solid black;
+    border-radius: 100px;
+}
+
+.productOrderAddButton:hover {
+    background-color: grey;
+}
+
+.productInOrders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#restaurantStatus {
+    font-weight: bold;
+}
+
+.reviewReply, .additing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.makeReview form, .review form , .additing form { 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+
+.makeReview form > div {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.makeReview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+

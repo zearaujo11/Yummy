@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+
+/* Categories */
+
+#categories {
+    background-color:rgb(255, 240, 109);
+}
+
+.category {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+
+.category:hover {
+    background-color: lightgray;
+}
+
+.category img {
+    border-bottom: 2px black solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.category a {
+    text-decoration: none;
+    color: black;
+}

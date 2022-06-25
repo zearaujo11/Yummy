@@ -1,0 +1,171 @@
+.restaurantInformation > div, .review {
+    padding: 1.5em;
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.restaurantInformation > .addFavourite {
+    border: none;
+    margin: 0em; 
+}
+
+.addFavourite button {
+    width: 100%;
+    height: 4em; 
+    margin: 0em; 
+    cursor: pointer;
+}
+
+.clientOrders {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+/*  Restaurant categories, phone number and location  */
+.restaurantExtraInformation {
+    list-style-type: none;
+    
+}
+
+.restaurantCategories {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.restaurantCategories :first-child {
+    padding: 0.6em 0.2em 0.6em 0em;
+    
+}
+
+.restaurantCategory {
+    display: inline-block;
+    padding: 0.6em;
+    background-color: rgb(255, 255, 100);
+    border-radius: 20px;
+    margin-left: 1.5em;
+}
+
+/*
+.additing input {
+    margin: 0.5em; 
+    width: 90%; 
+    height: 3em; 
+}
+
+.additing button {
+    margin-top: 1em; 
+}
+*/
+
+/* Reviews */
+.reviewHeader {
+    display: flex;
+}
+
+.reviewHeader :first-child {
+    padding: 0.6em 0.2em 0.6em 0em;
+}
+
+.reviewRating {
+    padding: 0.6em;
+    background-color: rgb(81, 255, 104);
+    border-radius: 20px;
+    margin-left: 1.5em;
+}
+
+.reviewPrice {
+    padding: 0.6em;
+    background-color: rgb(81, 229, 255);
+    border-radius: 20px;
+    margin-left: 1.5em;
+}
+
+#buttonMakeReview, .makeReplyButton, .addItemButton {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#buttonMakeReview:hover, .makeReplyButton:hover, .addItemButton:hover {
+    background-color: rgb(255, 255, 100);
+    transform: scale(1.05) perspective(1px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.makeReview form > div {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.makeReviewNumber {
+    padding: 0.3em;
+    margin: 1em;
+}
+
+.makeReviewComment, .additing input {
+    width: 90%;
+    padding: 0.7em;
+    margin: 1em;
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+
+
+.productInOrders {
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 20px;
+    background-color: white;
+    width: 75%;
+}
+
+.productOrderRemoveButton {
+    margin-top: 0.2em;
+    padding: 0.4em;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.productOrderRemoveButton:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+#makeOrder {
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 0.3em;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+#makeOrder:hover {
+    background-color: yellow;
+    color: white;
+    border: 2px solid white;
+    text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+}
+
+.additing button:last-child {
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.editProductDiv {
+    display: flex;
+    direction: row;
+}
+
+.editProductDiv > * {
+    margin: 0.3em;
+}
